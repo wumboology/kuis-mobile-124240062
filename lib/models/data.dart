@@ -1,18 +1,18 @@
-class Account {
+class User {
   String username;
   String password;
   String displayName;
 
-  Account({
+  User({
     required this.username,
     required this.password,
     required this.displayName,
   });
 }
 
-Account account = Account(
-  username: "adminuniqlo",
-  password: "uniqlo123",
+User user1 = User(
+  username: "adit",
+  password: "062",
   displayName: "Admin UNIQLO",
 );
 
